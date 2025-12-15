@@ -4,13 +4,13 @@ import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChang
 
 // Your Firebase configuration
 const firebaseConfig = {
-    apiKey: "",
-    authDomain: "",
-    projectId: "",
-    storageBucket: "",
-    messagingSenderId: "",
-    appId: ""
-  };
+  apiKey: "AIzaSyBmbEcxbeHGmdVS2fMvVS9rLsRacHbVP70",
+  authDomain: "fir-v07-project.firebaseapp.com",
+  projectId: "fir-v07-project",
+  storageBucket: "fir-v07-project.firebasestorage.app",
+  messagingSenderId: "635924698380",
+  appId: "1:635924698380:web:2b0c7e4ffacd8c56b4a529"
+};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
